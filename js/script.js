@@ -5,7 +5,8 @@ let lampadina = document.querySelector('img');
 console.log(lampadina);
 //CORPO DEL PROGRAMMA
 //aggiungo un event listener al bottone
-button.addEventListener('Click', function(){
+button.addEventListener('click', function(){
     //con il click sul bottone dovrei accendere la lampadina, quindi controllo prima se col click funziona con un console.log
     console.log('CLICCATO');
+
 })
