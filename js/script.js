@@ -11,7 +11,7 @@ button.addEventListener('click', function(){
         //una volta accertati che questo funziona, possiamo iniziare a scrivere il codice per accendere la lampadina
     //per accendere la lampadina dobbiamo cambiare l'attributo src dell'immagine
     //lampadina.src="./img/yellow_lamp.png";
-    //ora che abbiamo visto che funziona, commento il tutto per trovare il modo di farla amche spegnere
+    //ora che abbiamo visto che funziona, commento il tutto per trovare il modo di farla anche spegnere
     if(lampadina.src.includes('white')){
         lampadina.src="./img/yellow_lamp.png";
         button.innerHTML="Spegni";
