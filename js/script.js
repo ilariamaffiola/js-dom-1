@@ -14,8 +14,10 @@ button.addEventListener('click', function(){
     //ora che abbiamo visto che funziona, commento il tutto per trovare il modo di farla amche spegnere
     if(lampadina.src.includes('white')){
         lampadina.src="./img/yellow_lamp.png";
+        button.innerHTML="Spegni";
     }
     else{
         lampadina.src="./img/white_lamp.png";
+        button.innerHTML="Accendi";
     }
 })
