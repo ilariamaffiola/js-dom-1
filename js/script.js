@@ -1,4 +1,4 @@
-//dichiaro le variabili recuoerando quindi gli elementi del DOM
+//dichiaro le variabili recuperando quindi gli elementi del DOM
 let button = document.querySelector('button');
 console.log(button);
 let lampadina = document.querySelector('img');
